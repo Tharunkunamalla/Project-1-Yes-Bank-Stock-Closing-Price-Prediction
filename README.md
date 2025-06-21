@@ -18,7 +18,7 @@ Feature Engineering & Selection:
 - Engineered new time-based and statistical features, eliminated low-value predictors, and retained meaningful ones such as Open, High, Low, Month, Year, and Volatility.
 
 Model Building:
-- Three regression models were implemented—Linear Regression, K-Nearest Neighbors (KNN), and XGBoost—using GridSearchCV for hyperparameter tuning and evaluated with cross-validation.
+- Three regression models were implemented—Linear Regression, K-Nearest Neighbors (KNN), and XGBoost —using GridSearchCV for hyperparameter tuning and evaluated with cross-validation.
 
 Evaluation Metrics:
 - Models were assessed using MAE, MSE, and R², where Linear Regression achieved the best performance (MAE = 5.90, MSE = 84.02, R² = 0.9907), indicating a strong linear pattern.
